@@ -1,0 +1,62 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 506px;
+  border: 3px solid black;
+  margin-top: 30px;
+}
+
+.tableHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.tableDescribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 460px;
+}
+
+.describeText {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transactionItem {
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transactionItem:nth-child(2n) {
+  background-color: lightgrey;
+}
+
+.transactionText {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
